@@ -1,0 +1,139 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+@font-face {
+    font-family: Italianno;
+    src: url("../fonts/Italianno-Regular.ttf");
+}
+
+.encabezado{
+    font-size: 2rem;
+    font-family: 'Lato', sans-serif;
+}
+
+.encabezado span{
+    font-size: 3rem;
+    font-family: 'Italianno', cursive;
+    color: #D45698;
+}
+
+
+.redes ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.redes ul li{
+    position: relative;
+    display: inline-block;
+}
+
+.redes ul li a::before{
+    font-family: 'FontAwesome';
+    display: inline-block;
+    vertical-align: top;
+    padding: 0.4rem;
+    content: '\f08e';
+    -webkit-font-smoothing: antialiased;
+    font-size: 2rem;
+    color: #e082a8;
+}
+
+.redes ul li a[href*="facebook.com"]::before{
+    content: '\f230';
+}
+
+.redes ul li a[href*="twitter.com"]::before{
+    content: '\f081';
+}
+
+.redes ul li a[href*="instagram.com"]::before{
+    content: '\f16d';
+}
+
+.redes ul li a[href*="pinterest.com"]::before{
+    content: '\f0d2';
+}
+
+.redes ul li a[href*="youtube.com"]::before{
+    content: '\f16a';
+}
+
+
+
+/** PARTE NAVEGACION **/
+
+.navegacion {
+    background: #FE56B5;
+}
+
+.nav-principal .navbar-brand, 
+.nav-prinvipal .navbar-brand:hover{
+    color: #ffffff;
+}
+
+.nav-principal{
+    background-image: url(../images/borde-horizontal.png),
+                        url(../images/borde-horizontal.png);
+    background-repeat: repeat-x;
+    background-position: 0px top, 0px bottom;
+}
+
+.nav-link {
+    color: #882D60;
+    font-size: 1.7rem;
+    transition: background-color .8s ease-in-out;
+}
+
+.nav-link:hover{
+    background-color: #D45698;
+    color: #ffffff; 
+}
+
+.nav li:hover{
+    background-color: #D45698;
+    color: #ffffff; 
+}
+
+
+/** PARTE SERVICIOS **/
+
+.imagen-servicio img{
+    border: 6px solid #ffffff;
+    -webkit-transition: tranform .3s ease;
+    -ms-transition: transform 3.s ease;
+    transition: transform .3s ease; /** le doy un poco de fluidez al rotate transform de hover **/
+}
+
+
+.imagen-servicio img:hover{
+    transform: scale(1.2) rotate(5deg);
+    -webkit-transform: tranform .3s ease;
+    -ms-transform: transform 3.s ease;
+}
+
+.info-servicio{
+    background-color: #ffffff;
+    margin-top: -5rem;
+}
+
+.info-servicio .btn-primary{
+    border-radius: 0;
+    background-color: #D45698;
+    border: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
