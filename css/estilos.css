@@ -9,7 +9,7 @@
 }
 
 .encabezado{
-    font-size: 2rem;
+    font-size: 3rem;
     font-family: 'Lato', sans-serif;
 }
 
@@ -129,11 +129,52 @@
 
 
 
+.cartelera {
+    background: yellow;
+    margin: -5rem;
+    background-color: #ffffff;
+}
 
+.imagen-fondo img:hover{
+    transform: scale(1.2) rotate(5deg);
+    -webkit-transform: tranform .3s ease;
+    -ms-transform: transform 3.s ease;
+}
 
+.imagen-fondo img{
+    transition: transform .3s ease; /** le doy un poco de fluidez al rotate transform de hover **/
+    -webkit-transition: tranform .3s ease;
+    -ms-transition: transform .3s ease;
+}
 
+.row-horarios {
+    justify-content: center;
+}
 
+.seccion-horarios {
+    background-color: #65AEA4;
+    font-family: 'Lato', sans-serif;
+}
 
+.seccion-horarios h2{
+    font-family: 'Lato', sans-serif;
+    font-size: 2.6rem;
+}
 
+.seccion-horarios .table {
+    border: 2px solid #D45698;
+}
 
+.encabezado-horarios table thead{
+    background-color: #D45698;
+}
+
+.encabezado-horarios table thead th,
+.encabezado-horarios table td{
+    border: none;
+}
+
+.encabezado-horarios table tbody td{
+    padding: .2rem;
+}
 
