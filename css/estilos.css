@@ -232,6 +232,18 @@ body{
     line-height: 2rem;
 }
 
+.btn {
+    background-color: #D45698;
+    border: none;
+}
+
+.btn:hover {
+    background-color: #882D60;
+    border: none;
+    transition: background-color .4s ease;
+}
+
+
 
 @media (min-width: 990px){
     .citas{
@@ -239,4 +251,54 @@ body{
     }
 }
 
+/** FOOTER **/
 
+.copyright {
+    font-size: 0.7rem;
+    color: darkgray;
+}
+
+/** NOSOTROS **/
+
+.hero {
+    position: relative;
+}
+
+.hero h2{
+    position: absolute;
+    bottom: 2rem;
+    right: 0;
+    background-color: #D45698;
+    font-family: 'Lato', sans-serif;
+    color: #ffff;
+    font-weight: 900;
+}
+
+
+
+.imagenes img {
+    width: 160px;
+    height: 160px;
+}
+
+.contenido-principal p{
+    font-family: 'Lato', sans-serif;
+    font-size: 1.2rem;
+}
+
+.sidebar .table {
+    border: 2px solid #D45698;
+}
+
+.sidebar table thead{
+    background-color: #D45698;
+}
+
+.sidebar table thead th,
+.sidebar table td{
+    border: none;
+}
+
+.sidebar table tbody td{
+    padding: .2rem;
+}
