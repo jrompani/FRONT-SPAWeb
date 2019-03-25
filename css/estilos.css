@@ -302,3 +302,43 @@ body{
 .sidebar table tbody td{
     padding: .2rem;
 }
+
+
+/** SERVICIOS **/
+
+.card button{
+    color: #ffff;
+    font-size: 1.3rem;
+}
+
+.card-header{
+    background-color: #D45698;
+    padding: 0 1rem;
+}
+
+.card button:hover{
+    color: rgb(161, 157, 157);
+    text-decoration: none;
+    background-color: #D45698;
+}
+
+.card-header .btn-link{
+    color: #ffff;
+    text-decoration: none;
+    background-color: #D45698;
+}
+
+.card p{
+    color: rgb(46, 45, 46);
+    font-family: 'Lato', sans-serif;
+}
+
+.cupon{
+    border: 1.4px dotted #ffffff;
+}
+
+aside.servicios-side{
+    background-color: #65AEA4;
+}
+
+
