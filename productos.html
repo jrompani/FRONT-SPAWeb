@@ -77,7 +77,7 @@
                                         <a href="servicios.html" class="nav-link">Servicios</a>
                                   </li>
                                   <li class="nav-item">
-                                        <a href="productos.html" class="nav-link">Productos</a>
+                                        <a href="productos" class="nav-link">Productos</a>
                                   </li>
                                   <li class="nav-item">
                                         <a href="contacto.html" class="nav-link">Contacto</a>
@@ -91,87 +91,144 @@
         <div class="container pt-4">
             <div class="row no-gutters"> <!-- para que no se agregue los padding-->
                 <div class="col-12 hero">
-                    <img src="./images/servicios.jpg" class="img-fluid">
-                    <h2 class="d-md-block d-none text-uppercase text-center py-3 px-4">Servicios</h2> <!--dblock para mediano grando y luego para que se oculpte en cel-->
+                    <img src="./images/productos.jpg" class="img-fluid">
+                    <h2 class="d-md-block d-none text-uppercase text-center py-3 px-4">Productos</h2> <!--dblock para mediano grando y luego para que se oculpte en cel-->
                 </div>
             </div>
         </div>
 
 
-        <div class="container pt-4 px-2">
-            <div class="row"> 
-                <main class="col-lg-8 col-12 contenido-principal">
+        <div class="container pt-4 mt-4">
+            <div class="row no-gutters"> 
+                <main class="col-lg-12 contenido-principal">
                     <h2 class="d-block d-md-none text-center text-uppercase">
-                        Servicios
+                    Productos
                     </h2>
-                <div id="servicios">
-                    <div class="card">
-                        <div class="card-header" id="servicio1">
-                            <h2 class="mb-0">
-                                <button class="btn btn-link" data-toggle="collapse" data-target="#description1" aria-expanded="true" aria-controls="#description1">
-                                    Servicio Nº 1
-                                </button>
-                            </h2>
-                        </div>
-                        <div id="description1" class="collapse-show" aria-labelledby="servicio1" data-parent="#servicios">
-                            <div class="card-body">
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, 
-                                    in ex aliquid delectus reiciendis illo impedit quasi voluptates 
-                                    mollitia consequatur consectetur sit. Quis dolore accusamus 
-                                    saepe veritatis accusantium ipsum consequatur?.
-                                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                                    Lorem ipsum dolor sit amet consectetur adipisicing elit
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card">
-                        <div class="card-header" id="servicio2">
-                            <h2 class="mb-0">
-                                <button class="btn btn-link" data-toggle="collapse" data-target="#description2" aria-expanded="false" aria-controls="#description2">
-                                    Servicio Nº 2
-                                </button>
-                                </h2>
-                            </div>
-                        <div id="description2" class="collapse" aria-labelledby="servicio2" data-parent="#servicios">
-                            <div class="card-body">
-                                <p>Aquí va la información del Card</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card">
-                            <div class="card-header" id="servicio3">
-                                <h2 class="mb-0">
-                                    <button class="btn btn-link" data-toggle="collapse" data-target="#description3" aria-expanded="false" aria-controls="#description3">
-                                        Servicio Nº 3
-                                    </button>
-                                </h2>
-                                </div>
-                            <div id="description3" class="collapse" aria-labelledby="servicio3" data-parent="#servicios">
-                                <div class="card-body">
-                                    <p>Aquí va la información del Card</p>
-                                </div>
-                            </div>
-                        </div>
-                </div>
-                
-                </main>
-                
-                <aside class="col-lg-4 pt-4 pt-lg-0 col-12 servicios-side pb-3">
-                            <div class="sidebar">
-                                <h2 class="text-center text-uppercase mt-4">Nuevos Clientes</h2>
-                                <p class="lead text-center mt-4">
-                                    Recibe un 20% de descuento con este cupón:
-                                </p>
+                    <div class="row">
+                        <div class="card-columns">
+                            <div class="card">
+                                <a href="producto.html">
+                                    <img src="images/producto_mini_01.jpg" class="card-img-top img-fluid">
+                                    <div class="card-body">
+                                        <h3 class="card-title text-center text-uppercase">
+                                            Producto 1
+                                        </h3>
+                                        <p class="card-text text-uppercase">
+                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                        </p>
+                                        <p class="precio lead text-center mb-0">$25</p>
+                                    </div>
+                                </a>
+                            </div><!-- cierre de card-->
 
-                                <div class="cupon text-center px-2 py-4 mt-5">
-                                    <p class="text-uppercase text-center">
-                                    <span class="display-4">20 % descuento</span><br>
-                                    en todos los servicios.
-                                    </p>
-                                </div>
-                            </div>
-                </aside>   
+                            <div class="card">
+                                <a href="#">
+                                    <img src="images/producto_mini_02.jpg" class="card-img-top img-fluid">
+                                    <div class="card-body">
+                                        <h3 class="card-title text-center text-uppercase">
+                                            Producto 2
+                                        </h3>
+                                        <p class="card-text text-uppercase">
+                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                        </p>
+                                        <p class="precio lead text-center mb-0">$25</p>
+                                    </div>
+                                </a>
+                            </div><!-- cierre de card-->
+
+                            <div class="card">
+                                <a href="#">
+                                    <img src="images/producto_mini_03.jpg" class="card-img-top img-fluid">
+                                        <div class="card-body">
+                                            <h3 class="card-title text-center text-uppercase">
+                                                Producto 3
+                                            </h3>
+                                            <p class="card-text text-uppercase">
+                                                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                            </p>
+                                            <p class="precio lead text-center mb-0">$25</p>
+                                        </div>
+                                        </a>
+                                </div><!-- cierre de card-->
+
+                                <div class="card">
+                                    <a href="#">
+                                        <img src="images/producto_mini_04.jpg" class="card-img-top img-fluid">
+                                        <div class="card-body">
+                                            <h3 class="card-title text-center text-uppercase">
+                                                Producto 4
+                                            </h3>
+                                            <p class="card-text text-uppercase">
+                                                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                            </p>
+                                            <p class="precio lead text-center mb-0">$25</p>
+                                        </div>
+                                    </a>
+                                </div><!-- cierre de card-->
+
+                                <div class="card">
+                                    <a href="#">
+                                        <img src="images/producto_mini_05.jpg" class="card-img-top img-fluid">
+                                        <div class="card-body">
+                                            <h3 class="card-title text-center text-uppercase">
+                                                Producto 5
+                                            </h3>
+                                            <p class="card-text text-uppercase">
+                                                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                            </p>
+                                            <p class="precio lead text-center mb-0">$25</p>
+                                        </div>
+                                    </a>
+                                </div><!-- cierre de card-->
+
+                                <div class="card">
+                                    <a href="#">
+                                        <img src="images/producto_mini_06.jpg" class="card-img-top img-fluid">
+                                        <div class="card-body">
+                                            <h3 class="card-title text-center text-uppercase">
+                                                Producto 6
+                                            </h3>
+                                            <p class="card-text text-uppercase">
+                                                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                            </p>
+                                            <p class="precio lead text-center mb-0">$25</p>
+                                        </div>
+                                    </a>
+                                </div><!-- cierre de card-->
+
+                                <div class="card">
+                                    <a href="#">
+                                        <img src="images/producto_mini_07.jpg" class="card-img-top img-fluid">
+                                        <div class="card-body">
+                                            <h3 class="card-title text-center text-uppercase">
+                                                Producto 7
+                                            </h3>
+                                            <p class="card-text text-uppercase">
+                                                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                            </p>
+                                            <p class="precio lead text-center mb-0">$25</p>
+                                        </div>
+                                    </a>
+                                </div><!-- cierre de card-->
+
+                                <div class="card">
+                                    <a href="#">
+                                    <img src="images/producto_mini_08.jpg" class="card-img-top img-fluid">
+                                        <div class="card-body">
+                                            <h3 class="card-title text-center text-uppercase">
+                                                Producto 8
+                                            </h3>
+                                            <p class="card-text text-uppercase">
+                                                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                            </p>
+                                            <p class="precio lead text-center mb-0">$25</p>
+                                        </div>
+                                    </a>
+                                </div><!-- cierre de card-->
+                        </div> <!--card columns-->
+                </div>
+            </main>
+                
             </div> <!-- cierre de row-->
         </div> <!-- cierre de container-->
 

@@ -313,7 +313,7 @@ body{
 
 .card-header{
     background-color: #D45698;
-    padding: 0 1rem;
+    padding: 3 1rem;
 }
 
 .card button:hover{
@@ -326,6 +326,7 @@ body{
     color: #ffff;
     text-decoration: none;
     background-color: #D45698;
+    font-size: 1.3rem;
 }
 
 .card p{
@@ -335,10 +336,55 @@ body{
 
 .cupon{
     border: 1.4px dotted #ffffff;
+    font-family: 'Lato', sans-serif;
+}
+
+.cupon .display-4{
+    font-size: 3rem;
 }
 
 aside.servicios-side{
     background-color: #65AEA4;
+    color: #ffffff;
 }
 
+.lead{
+    color: #ffffff;
+}
+
+/** PRODUCTOS **/
+
+@media (min-width: 576px){
+    .card-columns {
+        -webkit-column-count: 2;
+        -moz-column-count: 2;
+        column-count: 2;
+        -webkit-column-gap: 1.25rem;
+        -moz-column-gap: 1.25rem;
+        column-gap: 1.25rem;
+        orphans: 1;
+        widows: 1;
+    }
+}
+
+@media (min-width: 992px){
+    .card-columns {
+        -webkit-column-count: 4;
+        -moz-column-count: 4;
+        column-count: 4;
+    }
+}
+
+.card-columns a:hover{
+    text-decoration: none;
+}
+
+.card-columns h3{
+    color: #FE56B5;
+}
+
+aside.producto{
+    background-color: #65AEA4;
+    color: #ffffff;
+}
 

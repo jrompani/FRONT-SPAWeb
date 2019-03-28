@@ -28,7 +28,7 @@
                     <img src="images/logo.png" class="img-fluid mx-auto d-block pt-4 pb-4"> <!--Hago que el icono sea fluid y se alinea al centro del padre-->
                 </a>
             </div>
-            <div class="col-lg-4 text-center text-lg-right"> <!--Muevo los iconos hacia la derecha-->
+            <div class="col-lg-4 text-center text-lg-right"> <!--Muevo los iconos hacia la derecha en pantallas grandes-->
                 <nav class="redes">
                     <ul>
                         <li><a href="http://facebook.com">
@@ -63,7 +63,7 @@
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#nav_principal" aria-label="Mostrar Navegacion">
                         <span class="navbar-toggler-icon"></span>
                     </button>
-                    <a href="#" class="navbar-brand d-lg-none">Carolina Spa</a>
+                    <a href="#" class="navbar-brand d-lg-none">fran Spa</a>
                     <div class="container">
                           <div class="collapse navbar-collapse w-100" id="nav_principal">
                               <ul class="nav nav-justified w-100 flex-column flex-sm-row">
@@ -74,7 +74,7 @@
                                         <a href="nosotros.html" class="nav-link">Nosotros</a>
                                   </li>
                                   <li class="nav-item">
-                                        <a href="servicios.html" class="nav-link">Servicios</a>
+                                        <a href="servicios" class="nav-link">Servicios</a>
                                   </li>
                                   <li class="nav-item">
                                         <a href="productos.html" class="nav-link">Productos</a>
@@ -87,7 +87,6 @@
                     </div><!--.container-->
                 </nav>
         </div>
-
         <div class="container pt-4">
             <div class="row no-gutters"> <!-- para que no se agregue los padding-->
                 <div class="col-12 hero">
@@ -97,98 +96,51 @@
             </div>
         </div>
 
-
         <div class="container pt-4 px-2">
             <div class="row"> 
                 <main class="col-lg-8 col-12 contenido-principal">
                     <h2 class="d-block d-md-none text-center text-uppercase">
-                        Servicios
+                        Contacto
                     </h2>
-                <div id="servicios">
-                    <div class="card">
-                        <div class="card-header" id="servicio1">
-                            <h2 class="mb-0">
-                                <button class="btn btn-link" data-toggle="collapse" data-target="#description1" aria-expanded="true" aria-controls="#description1">
-                                    Servicio Nº 1
-                                </button>
-                            </h2>
+                    <form action="" class="p-5 mt-5 formulario-contacto">
+                        <div class="form-group">
+                            <label for="nombre">Nombre:</label>
+                            <input type="text" class="form-control" id="nombre" placeholder="Tu nombre">
                         </div>
-                        <div id="description1" class="collapse-show" aria-labelledby="servicio1" data-parent="#servicios">
-                            <div class="card-body">
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, 
-                                    in ex aliquid delectus reiciendis illo impedit quasi voluptates 
-                                    mollitia consequatur consectetur sit. Quis dolore accusamus 
-                                    saepe veritatis accusantium ipsum consequatur?.
-                                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                                    Lorem ipsum dolor sit amet consectetur adipisicing elit
-                                </p>
-                            </div>
+                        <div class="form-group">
+                            <label for="nombre">E-Mail:</label>
+                            <input type="text" class="form-control" id="email" placeholder="Tu e-mail">
                         </div>
-                    </div>
-                    <div class="card">
-                        <div class="card-header" id="servicio2">
-                            <h2 class="mb-0">
-                                <button class="btn btn-link" data-toggle="collapse" data-target="#description2" aria-expanded="false" aria-controls="#description2">
-                                    Servicio Nº 2
-                                </button>
-                                </h2>
-                            </div>
-                        <div id="description2" class="collapse" aria-labelledby="servicio2" data-parent="#servicios">
-                            <div class="card-body">
-                                <p>Aquí va la información del Card</p>
-                            </div>
+                        <div class="form-group">
+                            <label for="mensaje">Mensaje:</label>
+                            <textarea class="form-control" id="mensaje" placeholder="Ingresa aquí tus comentarios" cols="20" rows="5"></textarea>
                         </div>
-                    </div>
-                    <div class="card">
-                            <div class="card-header" id="servicio3">
-                                <h2 class="mb-0">
-                                    <button class="btn btn-link" data-toggle="collapse" data-target="#description3" aria-expanded="false" aria-controls="#description3">
-                                        Servicio Nº 3
-                                    </button>
-                                </h2>
-                                </div>
-                            <div id="description3" class="collapse" aria-labelledby="servicio3" data-parent="#servicios">
-                                <div class="card-body">
-                                    <p>Aquí va la información del Card</p>
-                                </div>
-                            </div>
-                        </div>
-                </div>
-                
-                </main>
-                
-                <aside class="col-lg-4 pt-4 pt-lg-0 col-12 servicios-side pb-3">
-                            <div class="sidebar">
-                                <h2 class="text-center text-uppercase mt-4">Nuevos Clientes</h2>
-                                <p class="lead text-center mt-4">
-                                    Recibe un 20% de descuento con este cupón:
-                                </p>
+                    
+                    <button type="submit" class="btn btn-primary text-uppercase" value="enviar">Enviar</button>
 
-                                <div class="cupon text-center px-2 py-4 mt-5">
-                                    <p class="text-uppercase text-center">
-                                    <span class="display-4">20 % descuento</span><br>
-                                    en todos los servicios.
-                                    </p>
-                                </div>
-                            </div>
-                </aside>   
+                </form>
+                    
+                </main>
+   
             </div> <!-- cierre de row-->
         </div> <!-- cierre de container-->
+    
+        
+           
 
-        <div class="citas container-fluid py-5 mt-5">
-                <div class="row justify-content-center">
-                    <div class="col-md-6 text-center">
-                        <h3 class="cita text-uppercase">REALIZA TU CITA</h3>
-                        <p class="mt-3">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quidem at quae iure facere corrupti 
-                            accusamus suscipit nesciunt quia sunt aperiam laborum debitis tenetur, eligendi harum! 
-                            Eius repellat sint minus quis!
-                        </p>
-                        <a href="#" class="btn btn-primary mt-3 btn-lg">Leer Más</a>
-                    </div>
+        <div class="citas container-fluid py-5">
+            <div class="row justify-content-center">
+                <div class="col-md-6 text-center">
+                    <h3 class="cita text-uppercase">Reserva tu Turno</h3>
+                    <p class="mt-3">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quidem at quae iure facere corrupti 
+                        accusamus suscipit nesciunt quia sunt aperiam laborum debitis tenetur, eligendi harum! 
+                        Eius repellat sint minus quis!
+                    </p>
+                    <a href="#" class="btn btn-primary mt-3 btn-lg">Leer Más</a>
                 </div>
+            </div>
         </div>
-        
-        
+
         <div class="footer pt-4">
             <div class="container">
                 <div class="row">
@@ -240,7 +192,9 @@
             </div> <!-- cierre de container-->
 
 
-        </div> <!-- cierre de footer-->
+        </div>
+
+
 
 
            
